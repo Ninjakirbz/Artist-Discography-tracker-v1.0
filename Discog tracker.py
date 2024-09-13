@@ -2,7 +2,7 @@
 ################################################################################# by Autumn Hill ################################################################################
 
 with open("discog list.txt") as textFile:
-    ArtistList = [line.split(",") for line in textFile]        #Open text file and puts in 2D array
+    ArtistList = [line.split("|") for line in textFile]        #Open text file and puts in 2D array
 
 ################################################################################## subroutines ##################################################################################
 
